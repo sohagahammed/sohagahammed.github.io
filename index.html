@@ -295,47 +295,74 @@
       <!-- services section end -->
       <!-- portfolio section start -->
   
-<div class="col-md-4">
-   <div class="container_main">
-      <img src="images/app2-main.png" alt="App 2" class="image img-fluid">
-      <div class="overlay">
-         <div class="text">
-            <div class="btn_main">
-               <div class="buy_bt">
-                  <a href="#" data-bs-toggle="modal" data-bs-target="#app2Modal">See More</a>
+<div class="portfolio_section layout_padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-12">
+            <h1 class="portfolio_taital">My <span class="portfolio_taital_1">Portfolio</span></h1>
+         </div>
+      </div>
+      <div class="portfolio_section_2">
+         <div class="row">
+            <div class="col-md-4">
+               <div class="container_main">
+                  <img src="images/img-1.png" alt="Main Screenshot" class="image img-fluid">
+                  <div class="overlay">
+                     <div class="text">
+                        <div class="btn_main">
+                           <div class="buy_bt">
+                              <a href="#" data-bs-toggle="modal" data-bs-target="#appModal">See More</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
       </div>
-   </div>
-</div>
 
-<!-- App 2 Modal -->
-<div class="modal fade" id="app2Modal" tabindex="-1" aria-labelledby="app2ModalLabel" aria-hidden="true">
-   <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-         <div class="modal-header">
-            <h5 class="modal-title" id="app2ModalLabel">App 2 Details</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-         </div>
-         <div class="modal-body">
-            <div class="row g-3">
-               <div class="col-md-4"><img src="images/app2-1.png" class="img-fluid" alt=""></div>
-               <div class="col-md-4"><img src="images/app2-2.png" class="img-fluid" alt=""></div>
-               <div class="col-md-4"><img src="images/app2-3.png" class="img-fluid" alt=""></div>
-            </div>
-            <div class="mt-4">
-               <h6>Features:</h6>
-               <ul>
-                  <li>AI Integration</li>
-                  <li>Cloud Backup</li>
-               </ul>
-               <p>This app is helpful for ...</p>
+      <!-- Modal -->
+      <div class="modal fade" id="appModal" tabindex="-1" aria-labelledby="appModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="appModalLabel">App Details</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <div class="row g-3">
+                     <div class="col-md-4">
+                        <img src="images/img-1.png" class="img-fluid" alt="Screenshot 1">
+                     </div>
+                     <div class="col-md-4">
+                        <img src="images/img-2.png" class="img-fluid" alt="Screenshot 2">
+                     </div>
+                     <div class="col-md-4">
+                        <img src="images/img-3.png" class="img-fluid" alt="Screenshot 3">
+                     </div>
+                     <!-- আরও ছবি চাইলে এখানে আরেকটা <div class="col-md-4">...</div> বসাও -->
+                  </div>
+                  <div class="mt-4">
+                     <h6>App Features:</h6>
+                     <ul>
+                        <li>User-friendly interface</li>
+                        <li>Real-time updates</li>
+                        <li>Offline support</li>
+                        <li>High security and performance</li>
+                     </ul>
+                     <p>This app helps users to manage their tasks, schedule meetings, and collaborate with team members in a secure and efficient environment.</p>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+               </div>
             </div>
          </div>
       </div>
+      <!-- End Modal -->
    </div>
 </div>
+<!-- portfolio section end --> ai vabe korchi kaj kortache well akon ami aro item jog korbo kivabe like 5 ta app ala da alada vabe
 
 <!-- portfolio section end -->
       <div class="blog_section layout_padding">
@@ -477,6 +504,7 @@
    </body>
 
 </html>
+
 
 
 
